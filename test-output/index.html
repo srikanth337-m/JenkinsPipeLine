@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\srikanth_mattigunta\AppData\Local\Temp\testng-eclipse-580999733\testng-customsuite.xml</span>
+                    <span>C:\Users\srikanth_mattigunta\AppData\Local\Temp\testng-eclipse-1301217160\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Default_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Jenkins.BlueOcean.EcommerceTest" class="method navigator-link" hash-for-method="getUrl">getUrl</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,12 +103,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Jenkins.BlueOcean.EcommerceTest" class="method navigator-link" hash-for-method="launchBrouser">launchBrouser</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Jenkins.BlueOcean.EcommerceTest" class="method navigator-link" hash-for-method="loggedIn">loggedIn</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Jenkins.BlueOcean.EcommerceTest" class="method navigator-link" hash-for-method="loggedIn">loggedIn</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Jenkins.BlueOcean.EcommerceTest" class="method navigator-link" hash-for-method="loginPageVerification">loginPageVerification</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -142,38 +128,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Jenkins.BlueOcean.EcommerceTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="getUrl">
-                  </a> <!-- getUrl -->
-                  <span class="method-name">getUrl</span>
-                  <div class="stack-trace">org.testng.internal.thread.ThreadTimeoutException: Method Jenkins.BlueOcean.EcommerceTest.getUrl() didn&apos;t finish within the time-out 3000
-	at java.base@17.0.10/java.lang.Thread.sleep(Native Method)
-	at app//Jenkins.BlueOcean.EcommerceTest.getUrl(EcommerceTest.java:22)
-	at java.base@17.0.10/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base@17.0.10/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base@17.0.10/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base@17.0.10/java.lang.reflect.Method.invoke(Method.java:568)
-	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
-	at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
-	at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
-	at java.base@17.0.10/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base@17.0.10/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base@17.0.10/java.lang.Thread.run(Thread.java:840)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -182,16 +136,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="launchBrouser">
-                  </a> <!-- launchBrouser -->
-                  <span class="method-name">launchBrouser</span>
+                  <a name="loggedIn">
+                  </a> <!-- loggedIn -->
+                  <span class="method-name">loggedIn</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loggedIn">
-                  </a> <!-- loggedIn -->
-                  <span class="method-name">loggedIn</span>
+                  <a name="loginPageVerification">
+                  </a> <!-- loginPageVerification -->
+                  <span class="method-name">loginPageVerification</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -206,7 +160,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\srikanth_mattigunta\AppData\Local\Temp\testng-eclipse-580999733\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\srikanth_mattigunta\AppData\Local\Temp\testng-eclipse-1301217160\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -255,28 +209,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'launchBrouser')
+data.setCell(0, 1, 'loginPageVerification')
 data.setCell(0, 2, 'Jenkins.BlueOcean.EcommerceTest')
-data.setCell(0, 3, 3203);
+data.setCell(0, 3, 13941);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'getUrl')
+data.setCell(1, 1, 'navigateToHomePage')
 data.setCell(1, 2, 'Jenkins.BlueOcean.EcommerceTest')
-data.setCell(1, 3, 3004);
+data.setCell(1, 3, 16);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'loggedIn')
 data.setCell(2, 2, 'Jenkins.BlueOcean.EcommerceTest')
-data.setCell(2, 3, 2);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'navigateToHomePage')
-data.setCell(3, 2, 'Jenkins.BlueOcean.EcommerceTest')
-data.setCell(3, 3, 1);
+data.setCell(2, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -304,22 +254,16 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">Jenkins.BlueOcean.EcommerceTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">launchBrouser</span>
+                <span class="method-name">loginPageVerification</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">getUrl</span>
-                <span class="method-start">3207 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
                 <span class="method-name">navigateToHomePage</span>
-                <span class="method-start">6215 ms</span>
+                <span class="method-start">13941 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loggedIn</span>
-                <span class="method-start">6218 ms</span>
+                <span class="method-start">13961 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

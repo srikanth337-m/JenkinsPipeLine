@@ -5,7 +5,7 @@
     <classes>
       <class name="Jenkins.BlueOcean.EcommerceTest">
         <methods>
-          <include name="getUrl"/>
+          <include name="loginPage"/>
         </methods>
       </class> <!-- Jenkins.BlueOcean.EcommerceTest -->
     </classes>
