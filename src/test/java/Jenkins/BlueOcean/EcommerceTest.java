@@ -17,8 +17,9 @@ public class EcommerceTest {
 		System.out.println("browser launched successfully");
 	}
 	
-	@Test(priority = 1)
-	public void getUrl() {
+	@Test(priority = 1,timeOut = 3000)
+	public void getUrl() throws InterruptedException {
+		Thread.sleep(5000);
 		System.out.println("URL launched successfully");
 	}
 	
