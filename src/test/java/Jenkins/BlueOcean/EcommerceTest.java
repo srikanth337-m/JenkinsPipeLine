@@ -30,13 +30,6 @@ public class EcommerceTest {
 	}
 
 
-
-	//	@Test(priority = 1,timeOut = 3000)
-	//	public void getUrl() throws InterruptedException {
-	//		Thread.sleep(5000);
-	//		System.out.println("URL launched successfully");
-	//	}
-
 	@Test(priority = 1)
 	public void navigateToHomePage() {
 		System.out.println("navigated to home page launched successfully");
